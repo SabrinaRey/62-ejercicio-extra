@@ -12,7 +12,20 @@ const images = [
   "https://source.unsplash.com/aJeH0KcFkuc/400x300", 
   "https://source.unsplash.com/p2TQ-3Bh3Oo/400x300", 
 ]
+
+let acumuladoraDeImagenes = "";
+for (let i = 0; i < images.length; i++) {
+  acumuladoraDeImagenes += `<div class="col-lg-3 col-md-4 col-6">
+  <a href="#" class="d-block mb-4 h-100">
+        <img class="img-fluid img-thumbnail" src= ${images[i]} alt="">
+  </a>
+</div>`
+   
+}
   
-  
+  const galleryDiv = document.getElementById("gallery")
+
+  galleryDiv.innerHTML = acumuladoraDeImagenes;
+ 
   
   
