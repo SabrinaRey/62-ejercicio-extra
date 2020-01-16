@@ -1,4 +1,4 @@
-### Recorrer objetos: ejercicio extra 
+### Recorrer objetos: ejercicio extra - Consigna: https://github.com/malerey/62-ejercicio-extra/
 
 - Esta es una galeria de imagenes hecha con bootstrap. No hay CSS. 
 
